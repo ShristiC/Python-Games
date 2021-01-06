@@ -1,0 +1,25 @@
+Blackjack Game : Computer Dealer and Human Player
+
+Initial Code Implementation is the simple verision of the game as outlined below
+
+Game Reminders:
+1. Initially have 1 Deck of Card
+2. Deck should be shuffled at the beginning of the Game
+3. Face Cards have a value of 10
+4. Ace Card can be played as 1 or 11 as preferrable by the Player
+5. Ace card is played as an 11 by the Dealer
+6. Ignoring special game actions such as : Insurance, Split, Double Down
+7. Settlement: If player wins the game by being under 21, they are paid 1.5x the bet by Dealer
+               If player wins the game since Dealer bust, player is paid same bet by Dealer
+               If Dealer wins the game, dealer keeps the money that was betted
+
+Game Play:
+1. The Dealer Shuffles the Cards
+2. Deals 2 cards each to the player (both faceup) and one to itself (facedown)
+3. The Player plays first and has a goal to reach the value of 21
+3a. Has 2 Actions Available: Hit (receive another card) or Stay (stop receiving cards and let the Dealer play)
+3b. If the player draws an 'Ace' they have the choice to make it a 1 or 11 based on the round 
+4. If the player 'busts' meaning it goes over 21, the Dealer automatically wins
+5. The Dealer now turns their face down card and begins to play in the same way as the player
+6. If the Dealer Total sum > Player Sum and it is less than 21, then it wins the round
+7. Dealer continues to hit until it reaches that goal or unitl it is bust

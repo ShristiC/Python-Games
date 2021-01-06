@@ -1,0 +1,17 @@
+https://en.wikipedia.org/wiki/War_(card_game) 
+
+This is a project as part of the 2nd milestone project of the Udemy Python Course
+
+How it works:
+
+1. Start with a 52 Card Deck
+2. Split the Deck Evenly into two decks - 26 cards each
+3. Pick a card from each deck and compare --> card with higher rank wins
+4. Winner of the round takes both cards and adds it to the deck
+5. If there is a tie --> take out an additional n set of cards, and redraw two cards and go back to step 3
+6. game won when a player wins all the cards in the deck
+
+
+Game Construction:
+- Classes: Card, Deck, Player, Game Logic
+- Goal is to simulate a game between 2 computer players --> possible add ons : human players and competitive levels --> possible AI and RL after?
